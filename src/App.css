@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin-top: 5%;
   padding: 0;
   width: 100%;
@@ -36,8 +37,6 @@ body, html {
   background-color: #e9e9e9;
 }
 
-
-
 .search-container {
   width: 90%;
   max-width: 500px;
@@ -55,13 +54,13 @@ body, html {
 
 .search-container input[type="text"]:focus {
   outline: none;
-  border-color: #007BFF;
+  border-color: #007bff;
   box-shadow: 0 2px 8px rgba(0, 123, 255, 0.2);
 }
 
 @media (max-width: 600px) {
   .search-container input[type="text"] {
-      font-size: 16px;
-      padding: 12px;
+    font-size: 16px;
+    padding: 12px;
   }
 }
